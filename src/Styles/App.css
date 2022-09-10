@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Rubik+Mono+One&display=swap');
+
+/* Google Fonts 
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 5vh;
+  border-bottom: 2px solid gray;
+  padding: 50px 0;
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+}
+
+.app-grid-items img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.app-grid-items img:hover {
+  cursor: pointer;
+  transition: 500ms;
+  transform: translate(-4px,-4px);
+}
+
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2vh;
+  padding-top: 10px;
+}
+
+.app-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.app-search input {
+  width: 106.5vh;
+  padding: 1vh;
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+  border-radius: 1vh;
+  border: none;
+}
+
+.app-search input:focus {
+  outline: none;
+}
