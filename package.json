@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "http://phegorez.github.io/My_React_Project",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
